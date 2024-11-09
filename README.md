@@ -1,8 +1,10 @@
-# Sonic Odyssey Bot
+### SONIC ODYSSEY BOT
 
 Sonic Odyssey Bot is an application designed for interacting with the Sonic Odyssey platform. It supports multiple features including sending SOL (Solana) cryptocurrency transactions, claiming rewards, opening mystery boxes, and daily login operations.
 
-## Features
+---
+
+## FEATURES
 
 - **Transaction Sending**: Sends SOL transactions from multiple accounts to random addresses.
 - **Claim Box**: Automates the process of claiming rewards boxes.
@@ -13,17 +15,21 @@ Sonic Odyssey Bot is an application designed for interacting with the Sonic Odys
 - **Adjustable Amount of SOL**: Allows users to specify the amount of SOL to send in each transaction.
 - **Transaction Delay**: Allows users to specify a delay between each transaction.
 
-## Prerequisites
+---
+
+## PREREQUISITES
 
 - Node.js installed on your machine
 - `npm` or `yarn` package manager
 
-## Installation
+---
+
+## INSTALLATION
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/dante4rt/sonic-odyssey-bot.git
+   git clone https://github.com/Rambeboy/sonic-odyssey-bot.git
    ```
 
 2. Navigate into the project directory:
@@ -36,22 +42,24 @@ Sonic Odyssey Bot is an application designed for interacting with the Sonic Odys
 
    ```bash
    npm install
-   # or
+   ```
+   or
+   ```bash
    yarn install
    ```
 
-4. Prepare input files:
+5. Prepare input files:
 
-   - Create `accounts.json` with an array of seed phrases.
-   - Create `privateKeys.json` with an array of private keys (base58 encoded).
+- Create `accounts.json` with an array of seed phrases.
+- Create `privateKeys.json` with an array of private keys (base58 encoded).
 
-   Example `accounts.json`:
-   ```json
+  Example `accounts.json`:
+  ```json
    [
      "seed_phrase_1",
      "seed_phrase_2"
    ]
-   ```
+  ```
 
    Example `privateKeys.json`:
    ```json
@@ -61,7 +69,7 @@ Sonic Odyssey Bot is an application designed for interacting with the Sonic Odys
    ]
    ```
 
-## Usage
+## USAGE
 
 Run the bot using Node.js:
 
@@ -82,22 +90,20 @@ Follow the prompts to:
 3. Enter the amount of SOL to send in each transaction.
 4. Enter the delay between each transaction in milliseconds (default is 1000ms).
 5. Choose an operation:
-   - 1: Claim Box
-   - 2: Open Box
-   - 3: Daily Login
+- 1: Claim Box
+- 2: Open Box
+- 3: Daily Login
 
-## Donations
+---
 
-If you would like to support the development of this project, you can make a donation using the following addresses:
-
-- **Solana**: `GLQMG8j23ookY8Af1uLUg4CQzuQYhXcx56rkpZkyiJvP`
-- **EVM**: `0x960EDa0D16f4D70df60629117ad6e5F1E13B8F44`
-- **BTC**: `bc1p9za9ctgwwvc7amdng8gvrjpwhnhnwaxzj3nfv07szqwrsrudfh6qvvxrj8`
-
-## Contributing
+## CONTRIBUTING
 
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or fixes.
 
-## License
+---
+
+## LICENSE
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
